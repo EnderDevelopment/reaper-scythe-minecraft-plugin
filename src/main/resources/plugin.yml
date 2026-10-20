@@ -1,0 +1,12 @@
+name: ReaperScythe
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A scythe plugin with evolving enchantments, abilities, and lifesteal.
+api-version: "1.21"
+commands:
+  reaper:
+    description: Main command for the ReaperScythe plugin.
+    usage: /reaper help
+    permission: reaperscythe.command
+    permission-message: You do not have permission to use this command.
